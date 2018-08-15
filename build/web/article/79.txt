@@ -1,0 +1,6 @@
+<div class='picture'><img src='./image/t.jpg' /></div><div class='title'>哈哈哈哈哈哈哈</div><div class='author'>
+匿名用户|2017-06-09 17:27:17
+</div>
+<div class='article'>
+哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈
+</div>

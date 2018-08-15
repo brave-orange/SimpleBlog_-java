@@ -1,0 +1,80 @@
+.write{
+	width:1000px;
+	height:100%;
+	margin: auto;
+	position: relative;
+	border-radius:10px;
+	background:#fff;
+}
+.a-upload {
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+	position: relative;
+	margin-top:10px;
+    margin-left:50px;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+	
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+.ArticleTitle{
+    height:80px;
+    width:95%;
+	float:left;
+	margin-left: 2.5%;
+    font-size:40px;
+	font-family:黑体;
+	color:black;
+	border:none;
+	
+}
+.MainBody{
+    height:350px;
+    width:95%;
+	float:left;
+	margin-top: 1px;
+	margin-left: 2.5%;
+    font-size:20px;
+	font-family:黑体;
+	color:black;
+	border:none;
+	overflow-y: auto;
+}
+.submit{
+	border-radius:5px;
+	width:90px;
+	height:40px;
+	position:absolute;
+	left:880px;top:500px;
+	background:#FF9900;
+	color:#fff;
+	font-size:8px;
+	border:0px;
+}
+.submit:hover{
+	background:#FFbb22;
+}

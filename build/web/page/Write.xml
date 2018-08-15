@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<div class = "blogwall">
+    <div class="write">
+		<form action="PushArticle" method="post" onsubmit="return go(this)" enctype="multipart/form-data">
+		    <a href="javascript:;" class="a-upload">
+		        <input type="file" name="picture" >点击这里上传文章插图(宽图、不要超过300k)</input>
+			</a>
+		    <input class="ArticleTitle" type="text" name="title" placeholder="请输入标题" ></input>
+			<textarea class="MainBody" type="text" name="body" placeholder="请输入正文" ></textarea>
+			<input class="submit" type="submit" value="发表文章" />
+		</form>
+	</div>
+	
+</div>

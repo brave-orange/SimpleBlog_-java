@@ -1,0 +1,90 @@
+body{
+    position: relative;
+}
+.movielist{
+    position: relative;
+    width:400px;
+	height:400px;
+	margin-top:15px;
+	margin-left:18px;
+	margin-right:18px;
+	float:left;
+	border:2px solid;
+	border-radius:35px;
+	background:#fff;color:#111;
+    
+	overflow:hidden;
+}
+.movielist img{
+
+    height:auto;
+	width:100%;
+	display: block; 
+	opacity: 0.9; 
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+.movielist:hover img { 
+
+	opacity: 0.4; 
+}
+.movielist figcaption { 
+	position: absolute;
+	left: 5px; 
+	top: 5px; 
+}
+.movielist h2 { 
+    font-family:黑体;
+	color:black;
+	font-size: 15px; 
+	line-height: 22px; 
+	padding: 20px; 
+	font-weight: normal; 
+	opacity: 0; 
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s; 
+	transition: opacity 0.35s, transform 0.35s; 
+	-webkit-transform: scale(0); 
+	transform: scale(0); 
+	color: #222;
+	
+}
+.movielist:hover h2 { 
+    opacity: 1; 
+    -webkit-transform: scale(1); 
+	transform: scale(1); 
+}
+.movielistpic{
+	height:120px;
+	width:100%;
+}
+.movielistpic img{
+	margin-left:100px;
+    height:120px;
+	width:800px;
+}
+
+
+.playpage{
+    display:none;
+    height:850px;
+	width:70%;
+	margin: auto;
+	background:#FFF;
+	z-index:950;
+	position:absolute;
+	left:15%;top:10px;
+}
+.playpage video{
+    width:90%;
+	margin-left:5%;
+	height:820px;
+}
+.closebtn1{
+	display:none;
+	z-index:950;
+	position:fixed;
+	left:85%; top:100px; 
+	width:70px;
+	height:70px;
+	background:url(../image/cbtn.png);
+}

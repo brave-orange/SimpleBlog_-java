@@ -1,0 +1,6 @@
+<div class='picture'><img src='./image/t.jpg' /></div><div class='title'>呵呵呵呵呵呵呵呵呵呵呵</div><div class='author'>
+呵呵呵|2017-06-09 17:28:01
+</div>
+<div class='article'>
+呵呵呵呵呵呵呵呵呵呵呵
+</div>

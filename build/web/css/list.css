@@ -1,0 +1,58 @@
+.listwall{
+    background: #559664;
+	width:100%;
+	height:555px;
+	padding: 10px 0;
+	overflow:hidden;
+}
+.listwall ul{
+    width:1000px;
+    margin: auto;	
+	height:550px;
+	background:#fff;
+	overflow-y: auto;
+	box-shadow:10px 10px 50px black;
+}
+.listwall ul li{
+    width:950px;
+    height:150px;
+	border-radius:10px;
+	background:#ded;
+	margin: auto;	
+    margin-top:10px;
+	position:relative;
+}
+.img{
+
+    position:absolute;
+	left:50px;top:15px;
+    width:200px;
+	height:120px;
+    overflow:hidden;
+}
+.img img{
+    width:100%;
+	height:100%;
+}
+.title1{
+	position:absolute;
+	left:300px;top:20px;
+	font-family:黑体;
+	font-size:25px;
+	color:black;
+	border:bold;
+
+}
+.body{
+    position:absolute;
+	left:300px;top:70px;
+	width:550px;
+	height:60px;
+	overflow:hidden;
+}
+.author1{
+    position:absolute;
+	left:300px;top:50px;
+    width:700px;
+
+}

@@ -1,0 +1,32 @@
+.about{
+	width:1000px;
+	height:100%;
+	margin: auto;
+	
+	border-radius:35px;
+	box-shadow:inset 0px 0px 50px black;
+	background:#dddddd;
+}
+.about p{
+    
+    font-size:15px;
+	font-family:黑体;
+	color:black;
+	line-height:24px;
+	text-align:center;
+}
+
+hr{
+    margin: auto;
+	width:95%;
+	color:#FF9900;
+	border:solid 3px;
+	margin-top:20px;
+}
+font{
+    font-size:15px;
+	font-family:黑体;
+	float:left;
+	margin-top:15px;
+	margin-left:30px;
+}

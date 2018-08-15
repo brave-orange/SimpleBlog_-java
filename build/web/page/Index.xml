@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<div class = "blogwall">
+	<div class="tip"><img src="./image/tip.png" alt=""></div>
+	<ul>
+	
+	   <li onclick="show1()">
+	       <img src="image/t001.jpg" />
+	       <figcaption >
+              <h2>跨不过去是苟且，跨过去了是远方</h2>
+           </figcaption>
+	   </li>
+	   <li onclick="show2()">
+	       <img src="image/t002.jpg" />
+	       <figcaption >
+              <h2>赵四小姐：世间本无传奇</h2>
+           </figcaption>
+	   </li>
+       <li onclick="show3()">
+	       <img src="image/t003.jpg" />
+	       <figcaption >
+              <h2>对自己狠的人，反而更容易收获善意</h2>
+           </figcaption>
+	   </li>
+       <li onclick="show4()">
+	   	   <img src="image/t004.jpg" />
+	       <figcaption >
+              <h2>青春是一张失效多年的电话卡</h2>
+           </figcaption>
+	   </li>
+	   <li onclick="show5()">
+	   <img src="image/t005.jpg" />
+	       <figcaption >
+              <h2>你想了那么久，为什么还没去做？</h2>
+           </figcaption>
+	   </li>
+	   <li onclick="show6()">
+	   <img src="image/t006.jpg" />
+	       <figcaption >
+              <h2>爱情可能会迟到，但它从不会缺席</h2>
+           </figcaption>
+	   </li>
+	   <li onclick="show7()">
+	   <img src="image/t007.jpg" />
+	       <figcaption >
+              <h2>男女之间的纯友谊，是懂得不越界</h2>
+           </figcaption>
+	   </li>
+	   <li onclick="show8()">
+	   <img src="image/t008.jpg" />
+	       <figcaption >
+              <h2>人年轻时多读一些好书到底有多重要？</h2>
+           </figcaption>
+	   </li>
+	</ul>
+</div>

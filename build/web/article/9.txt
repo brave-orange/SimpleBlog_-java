@@ -1,0 +1,19 @@
+
+		<div class='picture'>
+		<img src='./image/t.jpg' />
+		</div>
+		<div class='title'>
+			如梦令.大话西游
+		</div>
+		<div class='author'>
+			汪勇城 | 2016-12-14 22:15
+		</div>
+		<div class='article'>
+			<p> 尤忆红尘深处，少年轻狂尤物，深落红尘中，痴情是为何故，
+残酷，残酷，何必相知陌路。
+
+
+
+~重温大话西游有感，赋词一首</p>
+		</div>	
+	

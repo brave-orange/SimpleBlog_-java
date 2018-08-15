@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(../image/background.jpg);
+	background-size:cover;	
+}
+.div{
+	text-align:center;
+	margin-top:30px;
+}
+
+
+a{
+    
+    font-size:8px;
+}
+a:link {color:#FF0000;}/* 未被访问的链接 */
+
+a:visited {color:#00FF00;}/* 已被访问的链接 */
+
+a:hover {color:#FF00FF;}/* 鼠标指针移动到链接上 */
+
+a:active {color:#0000FF;}/* 正在被点击的链接 */
+
+.title{
+	
+	margin-top:100px;
+	font-size:40px;
+	font-family:迷你简汉真广标;
+	color:#ffd;
+}
+.signin{
+	
+	font-size:15px;
+	color:#ffd;
+}
+
+input[type=text],input[type=password],textarea{
+	margin-top:10px;
+	border-radius:6px;
+	border:1px solid #000;
+	opacity:0.6;
+	}
+
+.btn{
+    border-radius:5px;
+	width:80px;
+	height:20px;
+	margin-top:10px;
+	background:#11d;
+	color:#fff;
+	font-size:8px;
+	border:0px;
+}
+.btn:hover{
+	
+	background:#22e;
+}
+.btn:active{
+    border-bottom:solid 1px #333;
+
+}
